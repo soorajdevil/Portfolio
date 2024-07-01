@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="indexnew2.css">
+
+    <title>SOORAJ SURESH Portfolio</title>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">SOORAJ SURESH</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#" style="--navAni:1">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about" onclick="animateCards()" style="--navAni:2">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skill" style="--navAni:3">Skill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Projects" style="--navAni:3">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact" style="--navAni:6">Contact</a>
+                            </li>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <section id="home">
+            <div class="container">
+                <div class="main">
+                    <div class="detail">
+                        <h3>Hi, I'm</h3>
+                        <h1><span class="highlight" style="color:#52489C;">SOORAJ</span> SURESH</h1>
+                        <p>I'm a professional Web Developer. Our Main Goal is to help & satisfy the Local & Global Clients with web development solutions.</p>
+                        <a href="Resume/SOORAJ SURESH 1 New 1.pdf" download="resume.pdf" class="btn btn-primary">
+                            <span class="text">Download Resume</span>
+                        </a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/sooraj-suresh-a143121a0/"><img src="icon/linkedin-icon.png" alt="LinkedIn" style="--socialAni:1"></a>
+                            <!-- <a href="sooraj1116@gmail.com"><img src="gmail-icon1.png" alt="Gmail" style="--socialAni:2"></a> -->
+                            <a href="mailto:sooraj1116@gmail.com">
+                                <img src="icon/gmail-icon1.png" alt="Gmail" style="--socialAni:2">
+                            </a>
+                            
+                            <a href="https://github.com/soorajdevil"><img src="icon/github.png" alt="GitHub"style="--socialAni:3"></a>
+                            <a href="https://x.com/dhe_sooraj"><img src="icon/twitter-icon.png" alt="Twitter" style="--socialAni:4"></a>
+                        </div>
+                    </div>
+                    <div class="profile-image">
+                        <img src="Profile/me2.jpg" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- 
+         <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>About Me</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at libero in nibh mollis luctus. Mauris varius felis non risus sollicitudin, quis scelerisque augue pellentesque. In eleifend laoreet metus, sed eleifend eros dignissim sit amet. Sed nec mi vitae lectus mollis sodales vel in felis. Donec vehicula enim at mi accumsan, et pharetra tortor hendrerit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>  -->
+
+        <!-- <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="about-img">
+                            <img src="me2.jpg" alt="Me">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-12">
+                        <h2>About Me</h2>
+                        
+                     
+                        <p>Seeking for a career in the IT field to
+                            establish myself as a professional, where I can strongly contribute towards my personal growth as well as organization.</p>
+                        
+                            <p>I'm a passionate developer who works with
+                                Web and Android development, involving technologies such as Python, Django,
+                                Android, HTML, CSS, SQL, and MongoDB.</p>
+                                <p id="more-text" class="hidden">I'm skilled in both creating the visual
+                                part of websites and the behind-the-scenes coding. I really enjoy making
+                                websites look great and user-friendly. I'm always learning and excited to be
+                                part of a web development team.</p>
+                       
+                        <a href="#" id="read-more" class="btn-about">Read more</a>
+
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 about-img">
+                        <img src="Profile/me2.jpg" alt="Me">
+                    </div>
+                    <div class="col-lg-12 about-text">
+                        <h2>About Me</h2>
+                        <p>Seeking for a career in the IT field to establish myself as a professional, where I can strongly contribute towards my personal growth as well as organization.</p>
+                        <p>I'm a passionate developer who works with Web and Android development, involving technologies such as Python, Django, Android, HTML, CSS, SQL, and MongoDB.</p>
+                        <p id="more-text" class="hidden">I'm skilled in both creating the visual part of websites and the behind-the-scenes coding. I really enjoy making websites look great and user-friendly. I'm always learning and excited to be part of a web development team.</p>
+                        <a href="#" id="read-more" class="btn-about">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+       <!-- <section class="about" id="about">
+                <div class="about-img">
+                    <img src="me.jpg" alt="">
+                </div>
+
+                    <div class="about-content">
+                        <h2 class="heading-About">About<span>Me!</span></h2>
+                        <p> Seeking for a career in the IT field to
+                            establish myself as a professional, where I can strongly contribute towards
+                            my personal growth as well as organization. </p>
+                            <a href="#" class="btn-about">Read me</a>
+                    </div>
+
+            
+                
+
+       </section> -->
+
+        <!-- <section id="skill">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Skills</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at libero in nibh mollis luctus. Mauris varius felis non risus sollicitudin, quis scelerisque augue pellentesque. In eleifend laoreet metus, sed eleifend eros dignissim sit amet. Sed nec mi vitae lectus mollis sodales vel in felis. Donec vehicula enim at mi accumsan, et pharetra tortor hendrerit.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="container" id="skill">
+            <h1 class="heading1">My Skills</h1>
+            <div class="Technical-bars">
+                <div class="row mt-5">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/html-icon.png" alt="HTML" class="skill-img">
+                            <div class="info">
+                                <span>HTML</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/css-icon.png" alt="CSS" class="skill-img">
+                            <div class="info">
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/python-icon.png" alt="Python" class="skill-img">
+                            <div class="info">
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/android-icon.png" alt="Android" class="skill-img">
+                            <div class="info">
+                                <span>Android</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row mt-5">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/java-icon.png" alt="Java" class="skill-img">
+                            <div class="info">
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/mysql-icon.png" alt="MySQL" class="skill-img">
+                            <div class="info">
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/sqlite-icon.png" alt="SQLite3" class="skill-img">
+                            <div class="info">
+                                <span>SQLite3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/javascript-icon.png" alt="JavaScript" class="skill-img">
+                            <div class="info">
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row mt-5 mb-5">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/git-icon.png" alt="Git" class="skill-img">
+                            <div class="info">
+                                <span>Git</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/github.png" alt="GitHub" class="skill-img">
+                            <div class="info">
+                                <span>GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/mongo.png" alt="MongoDB" class="skill-img">
+                            <div class="info">
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="bar">
+                            <img src="icon/django.png" alt="Django" class="skill-img">
+                            <div class="info">
+                                <span>Django</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- <section id="Projects">
+  <div class="container">
+    <h1 class="headings1">Projects</h1>
+    <div class="project-card">
+      <div class="card-body">
+        <div class="inner-card">
+          <video controls class="video-fluid">
+            <source src="Tour vibe.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="project-details">
+          <h2 class="project-title">Warehouse Management System</h2>
+          <p class="project-description">This is a user-friendly website for Warehouse Management System (WMS). It helps to control and manage day-to-day operations in a warehouse.</p>
+          <div class="project-tech">
+            <img src="python-icon.png" alt="Python">
+            <img src="sqlite-icon.png" alt="SQLite3">
+            <img src="javascript-icon.png" alt="JavaScript">
+            <img src="html-icon.png" alt="HTML">
+            <img src="css-icon.png" alt="CSS">
+          </div>
+          <a href="https://github.com/soorajdevil/WarehouseProject/" class="btn-gun btn-primary">View Code</a>
+          <a href="#" id="openModalBtn" class="btn-gun btn-secondary">View Image</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-body">
+        <div class="inner-card">
+          <video controls class="video-fluid">
+            <source src="mca 11.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="project-details">
+          <h2 class="project-title">Anonymous Person Finding</h2>
+          <p class="project-description">This web-based application, developed in Python, helps locate missing persons. It addresses cases where individuals have disappeared, and their status (alive or dead) and location are unknown. The system aids in managing cases of voluntary disappearances, accidents, crimes, and other scenarios.</p>
+          <div class="project-tech">
+            <img src="python-icon.png" alt="Python">
+            <img src="sqlite-icon.png" alt="SQLite3">
+            <img src="javascript-icon.png" alt="JavaScript">
+            <img src="html-icon.png" alt="HTML">
+            <img src="css-icon.png" alt="CSS">
+          </div>
+          <a href="https://github.com/soorajdevil/PersonFinding1/" class="btn-gun btn-primary">View Code</a>
+          <a href="#" id="openModalBtn" class="btn-gun btn-secondary">View Image</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<section id="Projects">
+    <div class="container">
+      <h1 class="headings1">Projects</h1>
+  
+      <!-- First project card -->
+      <div class="project-card">
+        <div class="card-body">
+          <div class="inner-card">
+            <video controls class="video-fluid">
+              <source src="video/WareHouse 1.mp4 " type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-details">
+            <h2 class="project-title">Warehouse Management System</h2>
+            <p class="project-description">This is a user-friendly website for Warehouse Management System (WMS). It helps to control and manage day-to-day operations in a warehouse.</p>
+            <div class="project-tech">
+              <img src="icon/python-icon.png" alt="Python">
+              <img src="icon/sqlite-icon.png" alt="SQLite3">
+              <img src="icon/javascript-icon.png" alt="JavaScript">
+              <img src="icon/html-icon.png" alt="HTML">
+              <img src="icon/css-icon.png" alt="CSS">
+            </div>
+            <a href="https://github.com/soorajdevil/WarehouseProject/" class="btn-gun btn-primary">View Code</a>
+            <!-- <a href="#" id="openModalBtn" class="btn-gun btn-secondary">View Image</a> -->
+            <a href="#" class="btn-gun btn-secondary openModalBtn" data-modal="imageModal1">View Image</a>
+        </div>
+        </div>
+      </div>
+  
+      <!-- Second project card -->
+      <div class="project-card">
+        <div class="card-body reverse">
+          <div class="project-details">
+            <h2 class="project-title">Anonymous Person Finding</h2>
+            <p class="project-description">This web-based application, developed in Python, helps locate missing persons. It addresses cases where individuals have disappeared, and their status (alive or dead) and location are unknown. The system aids in managing cases of voluntary disappearances, accidents, crimes, and other scenarios.</p>
+            <div class="project-tech">
+              <img src="icon/python-icon.png" alt="Python">
+              <img src="icon/sqlite-icon.png" alt="SQLite3">
+              <img src="icon/javascript-icon.png" alt="JavaScript">
+              <img src="icon/html-icon.png" alt="HTML">
+              <img src="icon/css-icon.png" alt="CSS">
+            </div>
+            <a href="https://github.com/soorajdevil/PersonFinding1/" class="btn-gun btn-primary">View Code</a>
+            <!-- <a href="#" id="openModalBtn" class="btn-gun btn-secondary">View Image</a> -->
+            <a href="#" class="btn-gun btn-secondary openModalBtn" data-modal="imageModal2">View Image</a>  
+        </div>
+          <div class="inner-card">
+            <video controls class="video-fluid">
+              <source src="video/person Finding.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+     
+      
+
+
+<!-- Modal -->
+<!-- <div id="imageModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="Screenshot 2023-08-15 142212.png" alt="Project Image" class="modal-image">
+    </div>
+  </div> -->
+
+
+<!-- The Modal -->
+<!-- <div id="imageModal" class="modal">
+    
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="modal-image" src="Screenshot 2023-08-15 142212.png" alt="Project Image">
+        <img class="modal-image" src="Scree.png" alt="Project Image">
+        <img class="modal-image" src="me.jpg" alt="Project Image">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+</div> -->
+
+<!-- First Image Modal -->
+<div id="imageModal1" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="modal-image" src="Screenshot/Screenshot 2023-08-15 142212.png" alt="Project Image">
+        <img class="modal-image" src="Screenshot/Screenshot 2024-06-30 161952.png" alt="Project Image">
+        <img class="modal-image" src="Screenshot/Screenshot 2024-06-30 160958.png" alt="Project Image">
+        <img class="modal-image" src="Screenshot/Screenshot 2024-06-30 222415.png" alt="Project Image">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+</div>
+
+<!-- Second Image Modal -->
+<div id="imageModal2" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img class="modal-image" src="Screenshot/PersonFinding-Screnshoot2.png" alt="Project Image">
+        <img class="modal-image" src="Screenshot/Screenshot 2024-06-30 224646.png" alt="Project Image">
+        <img class="modal-image" src="Screenshot/Screenshot 2024-06-30 225047.png" alt="Project Image">
+        <img class="modal-image" src="Screenshot/Screenshot 2024-06-30 225839.png" alt="Project Image">
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+</div>
+  <!-- <div id="imageModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-images">
+            <img src="Screenshot 2023-08-15 142212.png" alt="Project Image 1" class="modal-image">
+            <img src="Scree.png" alt="Project Image 2" class="modal-image"> -->
+            <!-- Add more images as needed -->
+        <!-- </div>
+        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+</div> -->
+
+
+
+    </div>
+  </section>
+
+  
+  
+  <section class="contact" id="Contact">
+    <div class="container">
+        <h1 class="heading2">Contact Me!</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" action="" method="post" enctype="multipart/form-data">
+                        <h2>Contact Us</h2>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name" class="form-label">Enter your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="mobile" name="mobile" required>
+                            <label for="mobile" class="form-label">Enter your Mobile No</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" class="form-label">Enter your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message" class="form-label">Enter your Message</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="file" id="document" name="document">
+                            <label for="document" class="document-label">Upload Document (optional)</label>
+                            <small class="form-text text-muted"><br>Max file size: 5MB. Allowed file types: PDF, DOCX, JPG, PNG.</small>
+                        </div>
+                        <button type="button" onclick="submitForm()" class="btn btn-secondary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h2>Get In Touch</h2>
+                        <div class="contact-row">
+                            <div class="contact-item">
+                                <h3><img src="icon/phone-icon1.png" alt="Phone Icon"> +91 9744623220</h3>
+                            </div>
+                            <div class="contact-item">
+                                <h3><img src="icon/location-icon.png" alt="Location Icon"> Pathanamthitta, Kerala</h3>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <div class="contact-item">
+                                <h3><img src="icon/gmail-icon1.png" alt="Email Icon"><a href="mailto:connectmesooraj@gmail.com">connectmesooraj@gmail.com</a></h3>
+                                <h3><img src="icon/gmail-icon1.png" alt="Email Icon"><a href="mailto:sooraj1116@gmail.com">sooraj1116@gmail.com</a></h3>
+                            </div>
+                        </div>
+                        <div class="contact-row social-media">
+                            <div class="contact-item">
+                                <a href="https://www.linkedin.com/in/sooraj-suresh-a143121a0/" target="_blank"><img src="icon/linkedin-icon.png" alt="LinkedIn Icon"></a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="https://www.instagram.com" target="_blank"><img src="icon/instagram-icon.png" alt="Instagram Icon"></a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="https://github.com/soorajdevil" target="_blank"><img src="icon/github1.png" alt="GitHub Icon"></a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="https://wa.me/9744623220" target="_blank">
+                                    <img src="icon/whatsapp-icon.png" alt="WhatsApp Icon">
+                                </a>
+                            </div>
+                            <div class="contact-item">
+                                <a href="https://x.com/dhe_sooraj" target="_blank"><img src="icon/twitter-icon.png" alt="Twitter Icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copyright">&copy; 2024 Sooraj Suresh. All rights reserved. <strong>'Let's Connect'</strong></p>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="back-top">
+    <a title="Go to Top" href="#"> <i class="fas fa-arrow-up"></i></a>
+</div>
+
+          
+    </div>
+
+    <!-- Back to top js -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var backTopButton = document.getElementById("back-top");
+
+    window.onscroll = function() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backTopButton.style.display = "block";
+        } else {
+            backTopButton.style.display = "none";
+        }
+    };
+
+    backTopButton.addEventListener("click", function(event) {
+        event.preventDefault();
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+});
+
+
+</script>
+
+<!-- Animation  -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  var textElement = document.querySelector(".headings1"); // Replace with your heading element selector
+  
+  // Add animation class on page load
+  textElement.classList.add("dropdown-animation");
+  
+  // Optional: Add animation class on hover
+  textElement.addEventListener("mouseenter", function() {
+    this.classList.add("dropdown-animation");
+  });
+});
+
+</script>
+
+<!-- Read more -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const readMoreBtn = document.getElementById("read-more");
+    const moreText = document.getElementById("more-text");
+
+    readMoreBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        moreText.classList.toggle("hidden");
+        if (moreText.classList.contains("hidden")) {
+            readMoreBtn.textContent = "Read more";
+        } else {
+            readMoreBtn.textContent = "Read less";
+        }
+    });
+});
+
+</script>
+
+<!-- Modal javascript-->
+<!-- <script>
+    // Get modal element
+    var modal = document.getElementById('imageModal');
+    
+    // Get open modal button
+    var modalBtn = document.getElementById('openModalBtn');
+    
+    // Get close button
+    var closeBtn = document.getElementsByClassName('close')[0];
+    
+    // Listen for open click
+    modalBtn.addEventListener('click', openModal);
+    
+    // Listen for close click
+    closeBtn.addEventListener('click', closeModal);
+    
+    // Listen for outside click
+    window.addEventListener('click', outsideClick);
+    
+    // Function to open modal
+    function openModal(e) {
+      e.preventDefault();
+      modal.style.display = 'block';
+    }
+    
+    // Function to close modal
+    function closeModal() {
+      modal.style.display = 'none';
+    }
+    
+    // Function to close modal if outside click
+    function outsideClick(e) {
+      if (e.target == modal) {
+        modal.style.display = 'none';
+      }
+    }
+  </script> -->
+ 
+
+  
+<!-- <script>
+    var modal = document.getElementById("imageModal");
+    var modalImages = document.getElementsByClassName("modal-image");
+    var currentIndex = 0;
+
+    document.getElementById("openModalBtn").onclick = function(event) {
+        event.preventDefault();  // Prevent the default anchor behavior
+        modal.style.display = "flex";
+        showImage(currentIndex);
+    }
+
+    document.getElementsByClassName("close")[0].onclick = function() {
+        modal.style.display = "none";
+    }
+
+    document.getElementsByClassName("prev")[0].onclick = function() {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : modalImages.length - 1;
+        showImage(currentIndex);
+    }
+
+    document.getElementsByClassName("next")[0].onclick = function() {
+        currentIndex = (currentIndex < modalImages.length - 1) ? currentIndex + 1 : 0;
+        showImage(currentIndex);
+    }
+
+    function showImage(index) {
+        for (var i = 0; i < modalImages.length; i++) {
+            modalImages[i].style.display = "none";
+        }
+        modalImages[index].style.display = "block";
+    }
+</script> -->
+  
+<script>
+    var modals = document.getElementsByClassName("modal");
+    var modalImages = document.getElementsByClassName("modal-image");
+    var openModalBtns = document.getElementsByClassName("openModalBtn");
+
+    for (var i = 0; i < openModalBtns.length; i++) {
+        openModalBtns[i].onclick = function(event) {
+            event.preventDefault();
+            var modalId = this.getAttribute("data-modal");
+            var modal = document.getElementById(modalId);
+            modal.style.display = "flex";
+            showImage(modal, 0);
+        }
+    }
+
+    var closeBtns = document.getElementsByClassName("close");
+    for (var i = 0; i < closeBtns.length; i++) {
+        closeBtns[i].onclick = function() {
+            var modal = this.closest(".modal");
+            modal.style.display = "none";
+        }
+    }
+
+    var prevBtns = document.getElementsByClassName("prev");
+    for (var i = 0; i < prevBtns.length; i++) {
+        prevBtns[i].onclick = function() {
+            var modal = this.closest(".modal");
+            var images = modal.getElementsByClassName("modal-image");
+            var currentIndex = getCurrentImageIndex(images);
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : images.length - 1;
+            showImage(modal, currentIndex);
+        }
+    }
+
+    var nextBtns = document.getElementsByClassName("next");
+    for (var i = 0; i < nextBtns.length; i++) {
+        nextBtns[i].onclick = function() {
+            var modal = this.closest(".modal");
+            var images = modal.getElementsByClassName("modal-image");
+            var currentIndex = getCurrentImageIndex(images);
+            currentIndex = (currentIndex < images.length - 1) ? currentIndex + 1 : 0;
+            showImage(modal, currentIndex);
+        }
+    }
+
+    function showImage(modal, index) {
+        var images = modal.getElementsByClassName("modal-image");
+        for (var i = 0; i < images.length; i++) {
+            images[i].style.display = "none";
+        }
+        images[index].style.display = "block";
+    }
+
+    function getCurrentImageIndex(images) {
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].style.display === "block") {
+                return i;
+            }
+        }
+        return 0;
+    }
+</script>
+
+<!-- submit button is not working using temp -->
+<script>
+    function submitForm() {
+        // Collect form data
+        var name = document.getElementById('name').value;
+        var mobile = document.getElementById('mobile').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+        var documentFile = document.getElementById('document').files[0]; // Optional: Handle file upload
+
+        // Example validation (you can add more complex validation as needed)
+        if (name.trim() === '' || mobile.trim() === '' || email.trim() === '' || message.trim() === '') {
+            alert('Please fill in all required fields.');
+            return;
+        }
+
+        // Optionally handle file upload here if needed
+
+        // Display confirmation or redirect to thank-you page
+        if (confirm('Are you sure you want to submit the form?')) {
+            // Redirect to thank-you page or perform other actions
+            window.location.href = 'indexnew1.html';
+        }
+    }
+</script>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
