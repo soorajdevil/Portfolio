@@ -522,7 +522,7 @@ transform: scaleX(1); /* Scaling to full width on hover */
   height: 40px;  /* Icon height */
   animation: pulse 2s infinite;
   animation: SocialAni 1s ease forwards;
-  animation: bounce 2s infinite;
+  animation: bounce 2s ;
 }
 @keyframes bounce {
 0%, 20%, 50%, 80%, 100% {
